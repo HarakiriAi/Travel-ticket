@@ -1,0 +1,51 @@
+body {
+    background: url(./img/Viene.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.ticket-card{
+    display: flex;
+    width: 620px;
+    margin: 0 auto;
+    mask-image: radial-gradient(
+        circle at 0 50%,
+        transparent 74.5px,
+        black 75px);
+}
+
+.card-content{
+    width: 420px;
+    padding: 50px;
+    padding-left: 150px;
+    color: #6b5742;
+    background-color: #fdf6f0;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 50%, transparent 51%);
+    background-repeat: repeat-y, no-repeat;
+    background-size: 1.5px 20px, auto auto;
+    background-position: 115px 4px, 0 0;
+}
+
+.ticket-button{
+    width: 145px;
+    height: 45px;
+    padding: 4px;
+    margin-top: 8px;
+    border: none;
+    cursor: 
+        url(./img/svg/plane-944.svg),
+        url(./img/svg/plane-944_16.png), 
+        pointer;
+    background-color: #e9ee88;
+    color: #6b5742;
+    font-size: 16px;
+    font-weight: 400;
+}
